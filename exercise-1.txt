@@ -14,8 +14,8 @@ DISPLAY "force"
 ---2. Tahun Kabisat---
 ALOGARITMA:
 1. simpan nilai tahun
-2. apabila tahun mod 4 hasilnya 0, namun tahun mod 100 nilainya bukan 0 artinya tahun merupakan tahun kabisat
-3. apabila tahun mod 4, 100, dan 400 nilainya 0 artinya tahun merupakan tahun kabisat
+2. apabila sisa bagi tahun dengan 4 hasilnya 0, namun sisa bagi tahun dengan 100 nilainya bukan 0 artinya tahun merupakan tahun kabisat
+3. apabila sisa bagi tahun dengan 4, 100, dan 400 nilainya sama dengan 0 artinya tahun merupakan tahun kabisat
 4. selain itu bukan tahun kabisat
 PSEUDOCODE:
 READ and SAVE "year"
